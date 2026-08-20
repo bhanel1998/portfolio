@@ -123,7 +123,7 @@
 
                 <!-- IMAGE PLACEHOLDER 1 -->
                 <div class="placeholder">
-                    <strong>Image Placeholder</strong>
+                     
                     <p>
                         <img src="../assets/stats1.png" alt="GUI Screenshot" style="width:100%; border-radius:12px;">
                     </p>
@@ -240,7 +240,7 @@
 
                 <!-- IMAGE PLACEHOLDER 2 -->
                 <div class="placeholder">
-                    <strong>Image Placeholder</strong>
+                     
                     <p>
                         <img src="../assets/stats2.png" alt="Screenshot showing original command line interface" style="width:100%; border-radius:12px;">
                     </p>
@@ -394,7 +394,7 @@
 
                         <!-- IMAGE PLACEHOLDER 4 -->
                         <div class="placeholder">
-                            <strong>Image Placeholder</strong>
+                             
                             <p>
                                 <img src="../assets/stats3.png" alt="Screenshot showing a failed export with 0 bytes" style="width:100%; border-radius:12px;">
                             </p>
@@ -473,7 +473,7 @@
 
                 <!-- IMAGE PLACEHOLDER 5 -->
                 <div class="placeholder">
-                    <strong>Image Placeholder</strong>
+                     
                     <p>
                         <img src="../assets/stats4.png" alt="Screenshot showing videos in ClipAssist, essentially a screenshot of mp4 files in Windows Explorer" style="width:100%; border-radius:12px;">
                     </p>
