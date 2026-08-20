@@ -3,7 +3,9 @@
         <section class="intro-section">
             <h2>Overview</h2>
             <p>
-                Software developer and game/UX designer specializing in interactive experiences. Several years of proven experience in Unity.
+                Software developer and game/UX designer with several years of proven experience in Unity.
+
+                Give me a training manual or a concept to be taught, and I can turn it into an interactive experience. I have a strong background in game design, and I enjoy creating engaging and educational experiences for users.
             </p>
         </section>
 
