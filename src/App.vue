@@ -23,7 +23,11 @@
                     </RouterLink>
 
                     <RouterLink to="/statsberger">
-                        Statsberger
+                        Statsberger with StatHead
+                    </RouterLink>
+
+                    <RouterLink to="/lexiconcordia">
+                        LexiConcordia
                     </RouterLink>
 
                     <div class="nav-dropdown">
@@ -40,10 +44,6 @@
 
                             <RouterLink to="/discourse-research">
                                 NLP Discourse Research
-                            </RouterLink>
-
-                            <RouterLink to="/lexiconcordia">
-                                LexiConcordia
                             </RouterLink>
 
                             <RouterLink to="/imminent">

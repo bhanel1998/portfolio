@@ -19,7 +19,7 @@
             <section id="overview">
                 <h2>Project Overview</h2>
                 <p class="tagline">
-                    Empowering students and faculty with fast, reliable access to technical terminology in French and English.
+                    In this project I co-led front end development on an agile team of 5 developers, communicating with many other stakeholders such as the OQLF, to create a bilingual engineering terminology portal for Concordia University's Department of French Studies. The platform allows users to search, view, and manage engineering terms in both English and French, providing a valuable resource for students and faculty alike.
                 </p>
                 <p>
                     LexiConcordia is a fully bilingual terminology lookup tool designed to help students, researchers, and educators
