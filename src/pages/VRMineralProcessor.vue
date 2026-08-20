@@ -309,29 +309,11 @@
 
                 <h2>Featured Coverage</h2>
 
-                <p class="tagline">
+                <p>
                     The virtual mineral-processing work was featured by the
                     Canada Foundation for Innovation as part of its coverage of
                     Industry 4.0 research and education.
                 </p>
-
-                <div class="placeholder">
-
-                    <div class="iframely-embed">
-
-                        <div
-                            class="iframely-responsive"
-                            style="padding-bottom: 60.7778%; padding-top: 120px;"
-                        >
-                            <a
-                                href="https://www.innovation.ca/projects-results/research-stories/Industry-4.0-mining"
-                                data-iframely-url="https://iframely.net/HTLWx1cb?theme=dark"
-                            ></a>
-                        </div>
-
-                    </div>
-
-                </div>
 
             </section>
 
