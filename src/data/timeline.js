@@ -16,8 +16,7 @@ export const timelineEvents = [
   {
     year: 'September 2023',
     title: 'Recent Advances in Natural Language Processing (RANLP) - Varna, Bulgaria',
-    description: 'Presented discourse analysis work in Bulgaria.',
-    file: RANLP
+    description: 'Presented discourse analysis work in Bulgaria.'
   },
   {
     year: 'August 2024',
@@ -28,14 +27,12 @@ export const timelineEvents = [
   {
     year: 'November 2024',
     title: 'RIT Frameless Labs Showcase - Rochester, New York',
-    description: 'Presented McGill work at my alma mater.',
-    link: 'https://www.youtube.com/watch?v=DRvZd700OM4'
+    description: 'Presented McGill work at my alma mater.'
   },
   {
     year: 'November 2024',
     title: 'Online Learning Consortium (OLC) - Orlando, Florida',
-    description: 'Presented on my McGill work with educators from around the globe.',
-    link: 'https://www.youtube.com/watch?v=1kg9Daqgl1o'
+    description: 'Presented on my McGill work with educators from around the globe.'
   },
     {
     year: 'June 2025',
