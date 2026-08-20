@@ -22,8 +22,8 @@
                         Mineral Processor Simulation
                     </RouterLink>
 
-                    <RouterLink to="/unity-training">
-                        Unity Training for McGill Grad Students
+                    <RouterLink to="/statsberger">
+                        Statsberger
                     </RouterLink>
 
                     <div class="nav-dropdown">
@@ -34,6 +34,10 @@
                         </button>
 
                         <div class="nav-dropdown-menu">
+                            <RouterLink to="/unity-training">
+                                Unity Training for McGill Grad Students
+                            </RouterLink>
+
                             <RouterLink to="/discourse-research">
                                 NLP Discourse Research
                             </RouterLink>
@@ -44,10 +48,6 @@
 
                             <RouterLink to="/imminent">
                                 Imminent
-                            </RouterLink>
-
-                            <RouterLink to="/statsberger">
-                                Statsberger
                             </RouterLink>
                         </div>
                     </div>

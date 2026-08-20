@@ -70,8 +70,8 @@ export const projects = [
         title: 'Statsberger',
         shortDescription:
             'Automatic creation of YouTube Shorts and scraping of the MLB stats REST API.',
-        tech: ['Python', 'REST APIs'],
-        tags: ['Python', 'REST APIs'],
+        tech: ['Python', 'REST APIs', 'FFmpeg'],
+        tags: ['Python', 'REST APIs', 'FFmpeg'],
         link: '/statsberger',
         role: 'Commissioned Developer'
     }
