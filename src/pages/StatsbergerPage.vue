@@ -2,8 +2,8 @@
     <div class="page statsberger-page">
 
         <!-- =====================================================
-             HERO
-             ===================================================== -->
+         HERO
+         ===================================================== -->
 
         <section class="project-hero">
 
@@ -49,15 +49,43 @@
             <a href="#requirements">Changing Requirements</a>
             <a href="#maintenance">Maintenance</a>
             <a href="#architecture">Workflow</a>
+            <a href="#examples">Examples</a>
             <a href="#takeaways">What It Demonstrates</a>
         </nav>
 
+        <section id="video-demo">
+
+            <div class="placeholder">
+
+                <iframe width="100%"
+                        height="500"
+                        src="https://www.youtube.com/embed/RB8hXmwuU0A"
+                        title="Statsberger Demo"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                </iframe>
+
+                <p style="
+            margin-top: 1rem;
+            text-align: center;
+            color: var(--muted);
+            font-size: 0.9rem;
+        ">
+                    Demonstration of Statsberger generating baseball rankings and
+                    automated video content from live MLB data.
+                </p>
+
+            </div>
+
+        </section>
 
         <main>
 
             <!-- =====================================================
-                 OVERVIEW
-                 ===================================================== -->
+             OVERVIEW
+             ===================================================== -->
 
             <section id="overview">
 
@@ -92,12 +120,22 @@
                     while continuously adapting it to new requirements.
                 </div>
 
+
+                <!-- IMAGE PLACEHOLDER 1 -->
+                <div class="placeholder">
+                    <strong>Image Placeholder</strong>
+                    <p>
+                        Screenshot of the current Statsberger dashboard or launcher,
+                        showing the available content-generation tools.
+                    </p>
+                </div>
+
             </section>
 
 
             <!-- =====================================================
-                 EVOLUTION
-                 ===================================================== -->
+             EVOLUTION
+             ===================================================== -->
 
             <section id="evolution">
 
@@ -200,12 +238,22 @@
 
                 </div>
 
+
+                <!-- IMAGE PLACEHOLDER 2 -->
+                <div class="placeholder">
+                    <strong>Image Placeholder</strong>
+                    <p>
+                        Side-by-side comparison of an early command-line version and
+                        the later graphical interface.
+                    </p>
+                </div>
+
             </section>
 
 
             <!-- =====================================================
-                 CHANGING REQUIREMENTS
-                 ===================================================== -->
+             CHANGING REQUIREMENTS
+             ===================================================== -->
 
             <section id="requirements">
 
@@ -214,6 +262,18 @@
                 <p class="tagline">
                     The requirements were not fixed at the beginning of the project.
                 </p>
+
+
+                <!-- IMAGE PLACEHOLDER 3 -->
+                <div class="placeholder">
+                    <strong>Image Placeholder</strong>
+                    <p>
+                        Example of a real feature request or changing requirement,
+                        such as French-language output, a new ranking format,
+                        or a revised clip-selection rule.
+                    </p>
+                </div>
+
 
                 <div class="results-grid">
 
@@ -289,8 +349,8 @@
 
 
             <!-- =====================================================
-                 MAINTENANCE
-                 ===================================================== -->
+             MAINTENANCE
+             ===================================================== -->
 
             <section id="maintenance">
 
@@ -343,11 +403,25 @@
 
                     </div>
 
-                    <div class="highlight">
-                        <strong>Maintenance principle:</strong><br>
-                        A feature is not complete simply because it works once.
-                        It has to remain understandable and adaptable when the next
-                        requirement arrives.
+                    <div>
+
+                        <!-- IMAGE PLACEHOLDER 4 -->
+                        <div class="placeholder">
+                            <strong>Image Placeholder</strong>
+                            <p>
+                                Screenshot of a debugging or maintenance scenario,
+                                such as a failed leaderboard fetch, console output,
+                                or corrected ranking behavior.
+                            </p>
+                        </div>
+
+                        <div class="highlight">
+                            <strong>Maintenance principle:</strong><br>
+                            A feature is not complete simply because it works once.
+                            It has to remain understandable and adaptable when the next
+                            requirement arrives.
+                        </div>
+
                     </div>
 
                 </div>
@@ -356,8 +430,8 @@
 
 
             <!-- =====================================================
-                 ARCHITECTURE
-                 ===================================================== -->
+             ARCHITECTURE
+             ===================================================== -->
 
             <section id="architecture">
 
@@ -410,12 +484,22 @@
 
                 </div>
 
+
+                <!-- IMAGE PLACEHOLDER 5 -->
+                <div class="placeholder">
+                    <strong>Image Placeholder</strong>
+                    <p>
+                        Screenshot of the local clip library, naming convention,
+                        generated ranking output, or final rendered video.
+                    </p>
+                </div>
+
             </section>
 
 
             <!-- =====================================================
-                 DEVELOPMENT EXAMPLES
-                 ===================================================== -->
+             DEVELOPMENT EXAMPLES
+             ===================================================== -->
 
             <section id="examples">
 
@@ -465,8 +549,8 @@
 
 
             <!-- =====================================================
-                 TAKEAWAYS
-                 ===================================================== -->
+             TAKEAWAYS
+             ===================================================== -->
 
             <section id="takeaways">
 
@@ -555,95 +639,123 @@
 
 <style scoped>
 
-    .development-timeline {
-        display: grid;
-        gap: 1rem;
-        margin: 2rem 0;
-    }
-
-    .development-stage {
-        display: grid;
-        grid-template-columns: 60px minmax(0, 1fr);
-        gap: 1.25rem;
-        padding: 1.25rem;
-        background: var(--surface);
-        border: 2px solid var(--ink);
-    }
-
-    .development-number {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 48px;
-        height: 48px;
-        background: var(--accent);
-        color: white;
-        font-weight: 800;
-    }
-
-    .development-stage h3 {
-        margin: 0 0 0.4rem;
-    }
-
-    .development-stage p {
-        margin: 0;
-        color: var(--muted);
-    }
-
-
-    .workflow-grid {
-        display: grid;
-        grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr);
-        gap: 0.75rem;
-        align-items: stretch;
-        margin: 2rem 0;
-    }
-
-    .workflow-step {
-        padding: 1.25rem;
-        background: var(--surface);
-        border: 2px solid var(--ink);
-    }
-
-        .workflow-step strong {
-            display: block;
-            margin-bottom: 0.5rem;
-            color: var(--accent);
+        .development-timeline {
+            display: grid;
+            gap: 1rem;
+            margin: 2rem 0;
         }
-
-        .workflow-step p {
-            margin: 0;
-            color: var(--muted);
-            font-size: 0.9rem;
-        }
-
-    .workflow-arrow {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: var(--accent);
-        font-size: 1.5rem;
-        font-weight: 800;
-    }
-
-
-    @media (max-width: 900px) {
-
-        .workflow-grid {
-            grid-template-columns: 1fr;
-        }
-
-        .workflow-arrow {
-            height: 24px;
-            transform: rotate(90deg);
-        }
-    }
-
-
-    @media (max-width: 650px) {
 
         .development-stage {
-            grid-template-columns: 1fr;
+            display: grid;
+            grid-template-columns: 60px minmax(0, 1fr);
+            gap: 1.25rem;
+            padding: 1.25rem;
+            background: var(--surface);
+            border: 2px solid var(--ink);
         }
-    }
+
+        .development-number {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            background: var(--accent);
+            color: white;
+            font-weight: 800;
+        }
+
+        .development-stage h3 {
+            margin: 0 0 0.4rem;
+        }
+
+        .development-stage p {
+            margin: 0;
+            color: var(--muted);
+        }
+
+
+        .workflow-grid {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr);
+            gap: 0.75rem;
+            align-items: stretch;
+            margin: 2rem 0;
+        }
+
+        .workflow-step {
+            padding: 1.25rem;
+            background: var(--surface);
+            border: 2px solid var(--ink);
+        }
+
+            .workflow-step strong {
+                display: block;
+                margin-bottom: 0.5rem;
+                color: var(--accent);
+            }
+
+            .workflow-step p {
+                margin: 0;
+                color: var(--muted);
+                font-size: 0.9rem;
+            }
+
+        .workflow-arrow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent);
+            font-size: 1.5rem;
+            font-weight: 800;
+        }
+
+
+        /*
+       Make generic placeholders a little more
+       useful on this page before real screenshots
+       are swapped in.
+    */
+
+        .statsberger-page .placeholder {
+            margin: 1.5rem 0 2rem;
+            min-height: 180px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+            .statsberger-page .placeholder strong {
+                margin-bottom: 0.5rem;
+                color: var(--accent);
+            }
+
+            .statsberger-page .placeholder p {
+                max-width: 600px;
+                margin: 0;
+                color: var(--muted);
+            }
+
+
+        @media (max-width: 900px) {
+
+            .workflow-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .workflow-arrow {
+                height: 24px;
+                transform: rotate(90deg);
+            }
+        }
+
+
+        @media (max-width: 650px) {
+
+            .development-stage {
+                grid-template-columns: 1fr;
+            }
+        }
 </style>
