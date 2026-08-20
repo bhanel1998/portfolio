@@ -125,8 +125,7 @@
                 <div class="placeholder">
                     <strong>Image Placeholder</strong>
                     <p>
-                        Screenshot of the current Statsberger dashboard or launcher,
-                        showing the available content-generation tools.
+                        <img src="../assets/stats1.png" alt="GUI Screenshot" style="width:100%; border-radius:12px;">
                     </p>
                 </div>
 
@@ -243,8 +242,7 @@
                 <div class="placeholder">
                     <strong>Image Placeholder</strong>
                     <p>
-                        Side-by-side comparison of an early command-line version and
-                        the later graphical interface.
+                        <img src="../assets/stats2.png" alt="Screenshot showing original command line interface" style="width:100%; border-radius:12px;">
                     </p>
                 </div>
 
@@ -262,17 +260,6 @@
                 <p class="tagline">
                     The requirements were not fixed at the beginning of the project.
                 </p>
-
-
-                <!-- IMAGE PLACEHOLDER 3 -->
-                <div class="placeholder">
-                    <strong>Image Placeholder</strong>
-                    <p>
-                        Example of a real feature request or changing requirement,
-                        such as French-language output, a new ranking format,
-                        or a revised clip-selection rule.
-                    </p>
-                </div>
 
 
                 <div class="results-grid">
@@ -409,10 +396,9 @@
                         <div class="placeholder">
                             <strong>Image Placeholder</strong>
                             <p>
-                                Screenshot of a debugging or maintenance scenario,
-                                such as a failed leaderboard fetch, console output,
-                                or corrected ranking behavior.
+                                <img src="../assets/stats3.png" alt="Screenshot showing a failed export with 0 bytes" style="width:100%; border-radius:12px;">
                             </p>
+                            A failed export with a 0 byte output file, which required investigation to determine the cause of the failure.
                         </div>
 
                         <div class="highlight">
@@ -489,8 +475,7 @@
                 <div class="placeholder">
                     <strong>Image Placeholder</strong>
                     <p>
-                        Screenshot of the local clip library, naming convention,
-                        generated ranking output, or final rendered video.
+                        <img src="../assets/stats4.png" alt="Screenshot showing videos in ClipAssist, essentially a screenshot of mp4 files in Windows Explorer" style="width:100%; border-radius:12px;">
                     </p>
                 </div>
 
